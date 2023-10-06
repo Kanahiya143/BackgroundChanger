@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  flex-wrap: wrap;
+}
+
+.button{
+  height: 8vw;
+  width: 8vw;
+  border: 2px solid black;
+  margin: 2vh;
+  padding: 1vw;
+  cursor: pointer;
+}
+#red{
+  background-color: red;
+}
+#yellow{
+  background-color: yellow;
+}
+#green{
+  background-color: green;
+}
+#blue{
+  background-color: blue;
+}
+#grey{
+  background-color: grey;
+}
+#orange{
+  background-color: orange;
+}
